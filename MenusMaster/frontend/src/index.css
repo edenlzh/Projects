@@ -1,0 +1,80 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.my-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    padding-left: 10px;
+    margin-top: 10%;
+    margin-bottom: 15%;
+  }
+
+  .my-container h1{
+    margin-bottom: 5%;
+    font-weight: bold;
+    font-size: xx-large;
+  }
+  
+  .message-form {
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+  }
+  
+  .message-input {
+    flex-grow: 1;
+    padding: 10px;
+    font-size: 1em;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .send-button {
+    padding: 10px 20px;
+    background-color: #7f9839;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .send-button:hover {
+    background-color: #7b8f42;
+  }
+  
+  .message-bubble {
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    width: fit-content;
+    max-width: 80%;
+  }
+  
+  .user-message {
+    align-self: flex-end;
+    background-color: #7b8f42;
+    color: white;
+  }
+  
+  .chatgpt-message {
+    align-self: flex-start;
+    background-color: #dd8318;
+    color: white;
+  }
+
+  @layer components {
+    .editor-btn {
+      @apply flex justify-center items-center text-slate-700 rounded-lg w-8 aspect-square;
+    }
+  
+    .active-editor-btn {
+      @apply text-slate-800 bg-slate-200;
+    }
+  }
+  

@@ -1,0 +1,12 @@
+# dependencies
+node_modules/
+
+# environment files
+.env
+
+# editor directories
+.vscode/
+
+# operating system generated files
+__MACOSX/
+.DS_Store

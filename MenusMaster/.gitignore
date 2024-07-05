@@ -1,0 +1,6 @@
+# dependencies
+node_modules/
+
+# operating system generated files
+__MACOSX/
+.DS_Store
