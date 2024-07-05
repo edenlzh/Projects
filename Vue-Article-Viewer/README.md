@@ -1,4 +1,3 @@
-# cs732-assignment-edenlzh
 # Vue Gaming Article Viewer
 
 This project demonstrates basic features such as listing articles, adding new articles, and navigating between different pages. The application makes use of Vue Router for navigation and Vuex for state management. The project also showcases the usage of components and Vue's reactivity system.
@@ -21,15 +20,11 @@ Make sure you have Node.js and npm installed on your system. You can download No
 
 ### Installation
 
-1. Clone the repository:
-
-```
-git clone https://github.com/UOA-CS732-SE750-Students-2024/cs732-assignment-edenlzh.git
-```
+1. Download the repository:
 
 2. Change to the project directory:
 ```
-cd cs732-assignment-edenlzh-main
+cd Vue-Article-Viewer
 ```
 
 3. Install the required dependencies:
